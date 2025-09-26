@@ -1,4 +1,4 @@
-# Zero-Shot Blind-Spot Image Denoising via Pixel Refilling
+# [Zero-Shot Blind-Spot Image Denoising via Pixel Refilling](https://neurips.cc/virtual/2025/poster/118602)
 
 This repository contains the official pytorch implementation for "Zero-Shot Blind-Spot Image Denoising via Pixel Refilling", NeurIPS 2025.
 
