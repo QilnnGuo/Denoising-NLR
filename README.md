@@ -6,7 +6,7 @@ This repository contains the official pytorch implementation for "Zero-Shot Blin
 ## Overview
 
 The goal of this project is to perform single image denoising. By running `SIDD_validation_**.py`, you can execute the self-supervised denoising process to test the subset images in folder `SIDD_subset`. The logs and denoised results will be saved in the `output_logs` folder. The auxiliary image for pixel refilling can be verified by executing the code `utils.py` and saved in the `patch_matching` folder. `submit_utils` contains our denoised results and code for submitting the denoised results on SIDD benchmark dataset.
-
+ ![](./figure/Pixel_Refilling_BSN.png)
 ## Prerequisites
 
 - **Python**: Version 3.8,
