@@ -86,8 +86,8 @@ You can also test both on the whole SIDD validation dataset and benchmark datase
 On both DBSNl and UNet based blind-spot network, we achieve the SOTA performance, among which UNET could achieve SOTA with only 1.1k iterations with only around 14 seconds per image. The results are shown below, which are all tested on a single A6000 GPU.
 
 **Table A. Performance comparison on SIDD validation and benchmark datasets.**
-|Method|SIDD Validation|SIDD Benchmark|Testing time (sec/image)|
-|-|-|-|-|
-|MASH|35.06|34.80|39.2|
-|**Ours(UNET 1.1k iters)**|35.26|35.91|14.0|   
-| **Ours(DBSNl 2k iters)**|36.32|36.81|65.4|
+|Method|SIDD Validation|SIDD Benchmark|Testing time (sec/image)|Params (M)|
+|-|-|-|-|-|
+|MASH|35.06|34.80|39.2|1.0|
+|**Ours(UNET 1.1k iters)**|35.26|35.91|14.0|1.0| 
+| **Ours(DBSNl 2k iters)**|36.32|36.81|65.4|0.5|
