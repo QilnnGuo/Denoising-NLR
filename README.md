@@ -26,7 +26,7 @@ git clone https://github.com/wooseoklee4/AP-BSN.git
 
 Then, put the downloaded `.mat` files in `AP-BSN/dataset/SIDD/` folder, and execute the code below to prepare the dataset.
 
-```python
+```
 python prep.py -d SIDD_val -s 256 -o 0
 python prep.py -d SIDD_benchmark -s 256 -o 0
 ```
@@ -56,7 +56,7 @@ Then you can change the default path for validation dataset in our provided code
 
 Or for benchmark dataset, change the default path according to the above directory structure, and execute the code below for testing.
 
-```python
+```
     python SIDD_ben_DBSNl.py \
     --path_CL ./AP-BSN/dataset/prep/SIDD_benchmark_s256_o0/RN \
     --path_RN ./AP-BSN/dataset/prep/SIDD_benchmark_s256_o0/RN \
@@ -69,13 +69,13 @@ We provide our experiment logs in `./output_logs/SIDD_validation_final_psnr_resu
 
 We give a demo for subset of SIDD validation dataset, you can directly run the code below to test the performance on SIDD validation dataset. If you want to test on the whole validation dataset, please follow the instruction above to prepare the dataset.
 
-```python
+```
     python SIDD_validation_DBSNl.py
 ```
 
 Our strategy can also be applied to UNet based blind-spot, we also provide a demo for UNet based blind-spot network on SIDD validation dataset.
 
-```python
+```
     python SIDD_validation_UNet.py
 ```
 
