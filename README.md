@@ -90,4 +90,5 @@ On both DBSNl and UNet based blind-spot network, we achieve the SOTA performance
 |-|-|-|-|-|-|
 |MASH|35.06|34.80|39.2|1.0|11.44|
 |**Ours(UNET 1.1k iters)**|35.26|35.91|14.0|1.0|11.44|
-| **Ours(DBSNl 2k iters)**|36.32|36.81|65.4|0.5|32.97|
+|**Ours(DBSNl 1k iters)**|36.08|-----|31.1|0.5|32.97|
+|**Ours(DBSNl 2k iters)**|36.32|36.81|65.4|0.5|32.97|
