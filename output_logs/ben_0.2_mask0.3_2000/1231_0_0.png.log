@@ -1,0 +1,8 @@
+Processing 1231_0_0.png
+Number of parameters for 1231_0_0.png: 504803
+Time taken for match_recover: 0.2491 seconds
+Training time for 1231_0_0.png: 66.1428 seconds
+Iteration 2000, Loss: 0.07658936083316803
+Time taken for single inference: 0.0019 seconds
+Time taken for 10 inferences: 0.0178 seconds
+Best PSNR for 1231_0_0.png: 0

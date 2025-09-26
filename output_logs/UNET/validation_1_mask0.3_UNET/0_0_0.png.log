@@ -1,0 +1,154 @@
+Processing 0_0_0.png
+Number of parameters for 0_0_0.png: 990000
+Time taken for match_recover: 1.1216 seconds
+Initial PSNR: 23.676448822021484
+Initial PSNR with pseudo: 29.376699447631836
+Initial PSNR with pseudo down: 31.983613967895508
+Iteration 0, Loss: 0.33431705832481384
+PSNR at iteration 0: 13.870647430419922
+SSIM at iteration 0: 0.15710559487342834
+PSNR at iteration 0 with single image: 13.860387802124023
+SSIM at iteration 0 with single image: 0.1408911794424057
+PSNR with rounded image: 13.870564460754395
+PSNR with single rounded image: 13.860311508178711
+Iteration 100, Loss: 0.048598941415548325
+PSNR at iteration 100: 31.23826789855957
+SSIM at iteration 100: 0.8223586678504944
+PSNR at iteration 100 with single image: 30.75208854675293
+SSIM at iteration 100 with single image: 0.7703652381896973
+PSNR with rounded image: 31.231882095336914
+PSNR with single rounded image: 30.745269775390625
+Iteration 200, Loss: 0.04462171718478203
+PSNR at iteration 200: 34.28409194946289
+SSIM at iteration 200: 0.8686025142669678
+PSNR at iteration 200 with single image: 33.63287353515625
+SSIM at iteration 200 with single image: 0.8277828097343445
+PSNR with rounded image: 34.269710540771484
+PSNR with single rounded image: 33.61876678466797
+Iteration 300, Loss: 0.04272308200597763
+PSNR at iteration 300: 36.4119873046875
+SSIM at iteration 300: 0.8894159197807312
+PSNR at iteration 300 with single image: 35.53765106201172
+SSIM at iteration 300 with single image: 0.8527842164039612
+PSNR with rounded image: 36.38974380493164
+PSNR with single rounded image: 35.517295837402344
+Iteration 400, Loss: 0.04140936955809593
+PSNR at iteration 400: 37.62151336669922
+SSIM at iteration 400: 0.9026067852973938
+PSNR at iteration 400 with single image: 36.683815002441406
+SSIM at iteration 400 with single image: 0.8708844184875488
+PSNR with rounded image: 37.58659744262695
+PSNR with single rounded image: 36.65726852416992
+Iteration 500, Loss: 0.04020991921424866
+PSNR at iteration 500: 38.24569320678711
+SSIM at iteration 500: 0.9153172969818115
+PSNR at iteration 500 with single image: 37.39229965209961
+SSIM at iteration 500 with single image: 0.891191303730011
+PSNR with rounded image: 38.20985412597656
+PSNR with single rounded image: 37.36160659790039
+Iteration 600, Loss: 0.0396098755300045
+PSNR at iteration 600: 38.637691497802734
+SSIM at iteration 600: 0.9207908511161804
+PSNR at iteration 600 with single image: 37.83903503417969
+SSIM at iteration 600 with single image: 0.8986666798591614
+PSNR with rounded image: 38.59634780883789
+PSNR with single rounded image: 37.80369567871094
+Iteration 700, Loss: 0.03892480954527855
+PSNR at iteration 700: 39.1041259765625
+SSIM at iteration 700: 0.9249926209449768
+PSNR at iteration 700 with single image: 38.265689849853516
+SSIM at iteration 700 with single image: 0.905114471912384
+PSNR with rounded image: 39.058223724365234
+PSNR with single rounded image: 38.229248046875
+Iteration 800, Loss: 0.03843178227543831
+PSNR at iteration 800: 39.39753341674805
+SSIM at iteration 800: 0.9277462363243103
+PSNR at iteration 800 with single image: 38.628700256347656
+SSIM at iteration 800 with single image: 0.9100635647773743
+PSNR with rounded image: 39.34760665893555
+PSNR with single rounded image: 38.590232849121094
+Iteration 900, Loss: 0.03822127729654312
+PSNR at iteration 900: 39.54359436035156
+SSIM at iteration 900: 0.9298748970031738
+PSNR at iteration 900 with single image: 38.770660400390625
+SSIM at iteration 900 with single image: 0.9131284356117249
+PSNR with rounded image: 39.49058532714844
+PSNR with single rounded image: 38.72932815551758
+Iteration 1000, Loss: 0.03780484199523926
+PSNR at iteration 1000: 39.637943267822266
+SSIM at iteration 1000: 0.9313653111457825
+PSNR at iteration 1000 with single image: 38.91642379760742
+SSIM at iteration 1000 with single image: 0.9154974818229675
+PSNR with rounded image: 39.589263916015625
+PSNR with single rounded image: 38.87218475341797
+Iteration 1100, Loss: 0.03750557452440262
+PSNR at iteration 1100: 39.805789947509766
+SSIM at iteration 1100: 0.932485044002533
+PSNR at iteration 1100 with single image: 39.08809280395508
+SSIM at iteration 1100 with single image: 0.9168815612792969
+PSNR with rounded image: 39.75159454345703
+PSNR with single rounded image: 39.044273376464844
+Iteration 1200, Loss: 0.037384845316410065
+PSNR at iteration 1200: 39.88398742675781
+SSIM at iteration 1200: 0.9331293702125549
+PSNR at iteration 1200 with single image: 39.1567497253418
+SSIM at iteration 1200 with single image: 0.9186579585075378
+PSNR with rounded image: 39.834808349609375
+PSNR with single rounded image: 39.110721588134766
+Iteration 1300, Loss: 0.03723878785967827
+PSNR at iteration 1300: 40.01228713989258
+SSIM at iteration 1300: 0.9338889122009277
+PSNR at iteration 1300 with single image: 39.3424186706543
+SSIM at iteration 1300 with single image: 0.9198361039161682
+PSNR with rounded image: 39.956207275390625
+PSNR with single rounded image: 39.29217529296875
+Iteration 1400, Loss: 0.03717911243438721
+PSNR at iteration 1400: 40.04996871948242
+SSIM at iteration 1400: 0.934175968170166
+PSNR at iteration 1400 with single image: 39.37483215332031
+SSIM at iteration 1400 with single image: 0.9201548099517822
+PSNR with rounded image: 39.99481201171875
+PSNR with single rounded image: 39.32358169555664
+Iteration 1500, Loss: 0.03721338510513306
+PSNR at iteration 1500: 40.03184509277344
+SSIM at iteration 1500: 0.9343833923339844
+PSNR at iteration 1500 with single image: 39.33011245727539
+SSIM at iteration 1500 with single image: 0.9205648303031921
+PSNR with rounded image: 39.97892761230469
+PSNR with single rounded image: 39.28614807128906
+Iteration 1600, Loss: 0.03710683062672615
+PSNR at iteration 1600: 40.113826751708984
+SSIM at iteration 1600: 0.9345982670783997
+PSNR at iteration 1600 with single image: 39.40806579589844
+SSIM at iteration 1600 with single image: 0.921264111995697
+PSNR with rounded image: 40.05708694458008
+PSNR with single rounded image: 39.35990905761719
+Iteration 1700, Loss: 0.037042684853076935
+PSNR at iteration 1700: 40.105838775634766
+SSIM at iteration 1700: 0.9346960186958313
+PSNR at iteration 1700 with single image: 39.43292236328125
+SSIM at iteration 1700 with single image: 0.9218344688415527
+PSNR with rounded image: 40.048057556152344
+PSNR with single rounded image: 39.38369369506836
+Iteration 1800, Loss: 0.0370233990252018
+PSNR at iteration 1800: 40.122825622558594
+SSIM at iteration 1800: 0.934812605381012
+PSNR at iteration 1800 with single image: 39.44118118286133
+SSIM at iteration 1800 with single image: 0.9219491481781006
+PSNR with rounded image: 40.06985092163086
+PSNR with single rounded image: 39.39231491088867
+Iteration 1900, Loss: 0.03708839789032936
+PSNR at iteration 1900: 40.117271423339844
+SSIM at iteration 1900: 0.9347429275512695
+PSNR at iteration 1900 with single image: 39.47571563720703
+SSIM at iteration 1900 with single image: 0.9217949509620667
+PSNR with rounded image: 40.06180191040039
+PSNR with single rounded image: 39.427330017089844
+Iteration 2000, Loss: 0.03699694573879242
+PSNR at iteration 2000: 40.12825012207031
+SSIM at iteration 2000: 0.93479984998703
+PSNR at iteration 2000 with single image: 39.432220458984375
+SSIM at iteration 2000 with single image: 0.9212744832038879
+PSNR with rounded image: 40.06890106201172
+PSNR with single rounded image: 39.379581451416016
+Best PSNR for 0_0_0.png: 40.12825012207031

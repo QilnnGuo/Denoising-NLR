@@ -1,0 +1,8 @@
+Processing 311_0_0.png
+Number of parameters for 311_0_0.png: 504803
+Time taken for match_recover: 0.2468 seconds
+Training time for 311_0_0.png: 65.8452 seconds
+Iteration 2000, Loss: 0.06509021669626236
+Time taken for single inference: 0.0020 seconds
+Time taken for 10 inferences: 0.0180 seconds
+Best PSNR for 311_0_0.png: 0

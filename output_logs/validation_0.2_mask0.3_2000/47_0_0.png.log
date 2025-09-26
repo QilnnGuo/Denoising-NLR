@@ -1,0 +1,97 @@
+Processing 47_0_0.png
+Number of parameters for 47_0_0.png: 504803
+Time taken for match_recover: 0.2597 seconds
+Initial PSNR: 16.146892547607422
+Initial PSNR with pseudo: 23.59014129638672
+Initial PSNR with pseudo down: 23.240680694580078
+Training time for 47_0_0.png: 0.0178 seconds
+Iteration 0, Loss: 0.2985001802444458
+Time taken for single inference: 0.0022 seconds
+Time taken for 10 inferences: 0.0194 seconds
+PSNR at iteration 0: 6.241601943969727
+SSIM at iteration 0: 0.0705396980047226
+PSNR at iteration 0 with single image: 6.241601943969727
+SSIM at iteration 0 with single image: 0.07053964585065842
+PSNR with rounded image: 6.227532386779785
+PSNR with single rounded image: 6.227517604827881
+Training time for 47_0_0.png: 3.3976 seconds
+Iteration 100, Loss: 0.12746913731098175
+Time taken for single inference: 0.0022 seconds
+Time taken for 10 inferences: 0.0183 seconds
+PSNR at iteration 100: 16.62053680419922
+SSIM at iteration 100: 0.5568571090698242
+PSNR at iteration 100 with single image: 16.620752334594727
+SSIM at iteration 100 with single image: 0.5562129616737366
+PSNR with rounded image: 16.62024688720703
+PSNR with single rounded image: 16.6204833984375
+Training time for 47_0_0.png: 3.4044 seconds
+Iteration 200, Loss: 0.09710710495710373
+Time taken for single inference: 0.0021 seconds
+Time taken for 10 inferences: 0.0183 seconds
+PSNR at iteration 200: 23.071020126342773
+SSIM at iteration 200: 0.66273033618927
+PSNR at iteration 200 with single image: 23.038257598876953
+SSIM at iteration 200 with single image: 0.6532955765724182
+PSNR with rounded image: 23.069473266601562
+PSNR with single rounded image: 23.037399291992188
+Training time for 47_0_0.png: 3.3998 seconds
+Iteration 300, Loss: 0.09142225980758667
+Time taken for single inference: 0.0021 seconds
+Time taken for 10 inferences: 0.0181 seconds
+PSNR at iteration 300: 26.107254028320312
+SSIM at iteration 300: 0.7107148766517639
+PSNR at iteration 300 with single image: 26.000782012939453
+SSIM at iteration 300 with single image: 0.69138103723526
+PSNR with rounded image: 26.104066848754883
+PSNR with single rounded image: 25.998775482177734
+Training time for 47_0_0.png: 3.4094 seconds
+Iteration 400, Loss: 0.08991017937660217
+Time taken for single inference: 0.0039 seconds
+Time taken for 10 inferences: 0.0217 seconds
+PSNR at iteration 400: 27.450599670410156
+SSIM at iteration 400: 0.7333393692970276
+PSNR at iteration 400 with single image: 27.298574447631836
+SSIM at iteration 400 with single image: 0.7126603722572327
+PSNR with rounded image: 27.447410583496094
+PSNR with single rounded image: 27.294879913330078
+Training time for 47_0_0.png: 3.4078 seconds
+Iteration 500, Loss: 0.08853398263454437
+Time taken for single inference: 0.0021 seconds
+Time taken for 10 inferences: 0.0182 seconds
+PSNR at iteration 500: 28.122695922851562
+SSIM at iteration 500: 0.7449852824211121
+PSNR at iteration 500 with single image: 27.9134521484375
+SSIM at iteration 500 with single image: 0.7258024215698242
+PSNR with rounded image: 28.11937141418457
+PSNR with single rounded image: 27.909412384033203
+Training time for 47_0_0.png: 16.8330 seconds
+Iteration 1000, Loss: 0.08656490594148636
+Time taken for single inference: 0.0023 seconds
+Time taken for 10 inferences: 0.0184 seconds
+PSNR at iteration 1000: 29.5242977142334
+SSIM at iteration 1000: 0.7693931460380554
+PSNR at iteration 1000 with single image: 29.248844146728516
+SSIM at iteration 1000 with single image: 0.7526610493659973
+PSNR with rounded image: 29.52039337158203
+PSNR with single rounded image: 29.244163513183594
+Training time for 47_0_0.png: 16.8730 seconds
+Iteration 1500, Loss: 0.08613268285989761
+Time taken for single inference: 0.0025 seconds
+Time taken for 10 inferences: 0.0183 seconds
+PSNR at iteration 1500: 29.728517532348633
+SSIM at iteration 1500: 0.7745525240898132
+PSNR at iteration 1500 with single image: 29.434938430786133
+SSIM at iteration 1500 with single image: 0.758141815662384
+PSNR with rounded image: 29.724895477294922
+PSNR with single rounded image: 29.431264877319336
+Training time for 47_0_0.png: 16.8815 seconds
+Iteration 2000, Loss: 0.08563026785850525
+Time taken for single inference: 0.0022 seconds
+Time taken for 10 inferences: 0.0184 seconds
+PSNR at iteration 2000: 29.757530212402344
+SSIM at iteration 2000: 0.7748034596443176
+PSNR at iteration 2000 with single image: 29.472665786743164
+SSIM at iteration 2000 with single image: 0.7574810981750488
+PSNR with rounded image: 29.752239227294922
+PSNR with single rounded image: 29.469070434570312
+Best PSNR for 47_0_0.png: 29.757530212402344

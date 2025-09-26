@@ -1,0 +1,37 @@
+Average Best PSNR: 37.582051595052086
+Average PSNR at iteration 0: 11.702385902404785
+Average SSIM at iteration 0: 0.1171589990456899
+Average PSNR at iteration 0 with single image: 11.702385902404785
+Average SSIM at iteration 0 with single image: 0.11715905616680782
+Average PSNR at iteration 100: 19.63603973388672
+Average SSIM at iteration 100: 0.6137956380844116
+Average PSNR at iteration 100 with single image: 19.63620376586914
+Average SSIM at iteration 100 with single image: 0.6135813494523367
+Average PSNR at iteration 200: 26.756567637125652
+Average SSIM at iteration 200: 0.7966903845469157
+Average PSNR at iteration 200 with single image: 26.742085774739582
+Average SSIM at iteration 200 with single image: 0.7933449347813925
+Average PSNR at iteration 300: 31.69775136311849
+Average SSIM at iteration 300: 0.8568082451820374
+Average PSNR at iteration 300 with single image: 31.659239451090496
+Average SSIM at iteration 300 with single image: 0.8499040206273397
+Average PSNR at iteration 400: 33.76397196451823
+Average SSIM at iteration 400: 0.8717499375343323
+Average PSNR at iteration 400 with single image: 33.692416508992515
+Average SSIM at iteration 400 with single image: 0.8642045656840006
+Average PSNR at iteration 500: 35.29342778523763
+Average SSIM at iteration 500: 0.880958636601766
+Average PSNR at iteration 500 with single image: 35.18506113688151
+Average SSIM at iteration 500 with single image: 0.8737279772758484
+Average PSNR at iteration 1000: 37.3632017771403
+Average SSIM at iteration 1000: 0.8929999073346456
+Average PSNR at iteration 1000 with single image: 37.206259409586586
+Average SSIM at iteration 1000 with single image: 0.8867569963137308
+Average PSNR at iteration 1500: 37.530219395955406
+Average SSIM at iteration 1500: 0.8950215776761373
+Average PSNR at iteration 1500 with single image: 37.35172080993652
+Average SSIM at iteration 1500 with single image: 0.8888094425201416
+Average PSNR at iteration 2000: 37.582051595052086
+Average SSIM at iteration 2000: 0.895040233929952
+Average PSNR at iteration 2000 with single image: 37.42353757222494
+Average SSIM at iteration 2000 with single image: 0.8885038495063782
