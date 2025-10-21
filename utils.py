@@ -177,8 +177,8 @@ if __name__ == "__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
     # Example usage
-    noisy_image = cv2.imread("/disk/qlguo/DownSample_pacth/kodak/RN_50_cropped/kodim01.png")
-    clean_image = cv2.imread("/disk/qlguo/DownSample_pacth/kodak/CL_cropped/kodim01.png")
+    noisy_image = cv2.imread("./SIDD_subset/RN/47_0_0.png")
+    clean_image = cv2.imread("./SIDD_subset/CL/47_0_0.png")
     clean_image = clean_image.astype(np.float32)
     # noisy_image = cv2.cvtColor(noisy_image, cv2.COLOR_BGR2RGB)
     noisy_image = np.expand_dims(noisy_image, axis=0).transpose(0, 3, 1, 2)  # 转换为 (B, C, H, W) 格式
