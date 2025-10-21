@@ -173,9 +173,6 @@ def match_recover(noisy_image, patch_size=8, overlap_ratio=1/4, overlap_ratio_do
     return recovered_image
 
 if __name__ == "__main__":
-    #change the visiable GPU
-    os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-
     # Example usage
     noisy_image = cv2.imread("./SIDD_subset/RN/47_0_0.png")
     clean_image = cv2.imread("./SIDD_subset/CL/47_0_0.png")
@@ -188,8 +185,9 @@ if __name__ == "__main__":
     recovered_image = np.clip(recovered_image[0], 0, 255) 
     psnr = 10 * np.log10(255**2 / np.mean((recovered_image - clean_image) ** 2))
     noisy_psnr = 10 * np.log10(255**2 / np.mean((noisy_image.transpose(0, 2, 3, 1)[0] - clean_image) ** 2))
-    cv2.imwrite("recovered_image.png", recovered_image.astype(np.uint8))
-    cv2.imwrite("clean_image.png", clean_image.astype(np.uint8))
-    cv2.imwrite("noisy_image.png", noisy_image[0].transpose(1, 2, 0).astype(np.uint8))
+    results_dir = "./patch_matching"
+    cv2.imwrite(results_dir+"/recovered_image.png", recovered_image.astype(np.uint8))
+    cv2.imwrite(results_dir+"/clean_image.png", clean_image.astype(np.uint8))
+    cv2.imwrite(results_dir+"/noisy_image.png", noisy_image[0].transpose(1, 2, 0).astype(np.uint8))
     print("PSNR:", psnr)
     print("Noisy PSNR:", noisy_psnr)
