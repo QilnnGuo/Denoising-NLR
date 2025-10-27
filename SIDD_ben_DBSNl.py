@@ -64,11 +64,10 @@ def train_model(filename, path_CL, path_RN, output_dir):
     for i in range(2001):
         with torch.no_grad():
             mask = (torch.rand_like(RN) < 0.3).float().cuda()
-            mask_hybrid = (torch.rand_like(RN) < 0.5).float().cuda()
-        masked_RN = RN * mask + pseudo * (1 - mask)*mask_hybrid + pseudo_down * (1 - mask) * (1 - mask_hybrid)
+        masked_RN = RN * mask + pseudo_down * (1 - mask)
         output_same = model(masked_RN)
         masked_RN = pixel_shuffle_down_sampling(masked_RN, 2)
-        target = RN * (1 - mask) + pseudo * mask * mask_hybrid + pseudo_down * mask * (1 - mask_hybrid)
+        target = RN * (1 - mask) + pseudo_down * mask
         output = model(masked_RN)
         output = pixel_shuffle_up_sampling(output, 2)
         loss = criterion(output * (1 - mask), target * (1 - mask)) + 0.2 * criterion((output - target) * (1 - mask), (output_same - target) * (1 - mask))
@@ -87,8 +86,7 @@ def train_model(filename, path_CL, path_RN, output_dir):
                 start_time = time.time()
                 for _ in range(10):
                     mask = (torch.rand_like(RN) < 0.3).float().cuda()
-                    mask_hybrid = (torch.rand_like(RN) < 0.5).float().cuda()
-                    masked_RN = RN * mask + pseudo * (1 - mask) * mask_hybrid + pseudo_down * (1 - mask) * (1 - mask_hybrid)
+                    masked_RN = RN * mask + pseudo_down * (1 - mask)
                     masked_RN = pixel_shuffle_down_sampling(masked_RN, 2)
                     output = model(masked_RN)
                     output = pixel_shuffle_up_sampling(output, 2)
