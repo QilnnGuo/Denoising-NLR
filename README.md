@@ -80,3 +80,14 @@ Our strategy can also be applied to UNet based blind-spot, we also provide a dem
 ```
 
 You can also test both on the whole SIDD validation dataset and benchmark dataset by changing the path of dataset in the code following the similar way above.
+
+## Citation
+
+```bibtex
+@inproceedings{guozero,
+  title={Zero-Shot Blind-Spot Image Denoising via Cross-Scale Non-Local Pixel Refilling},
+  author={Guo, Qilong and Zhang, Tianjing and Ma, Zhiyuan and Ji, Hui},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  year={2025}
+}
+```
